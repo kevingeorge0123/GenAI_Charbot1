@@ -1,4 +1,4 @@
-# GenAI_Chatbot1
+# GenAI_Charbot1
 Creating a chatbot using llama2,langchain,pinecone vector db
 
 # bash command
@@ -30,3 +30,13 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
 # Optional
 python -m pip install --upgrade pip
+
+
+# dimension or embedding model in huggingface
+https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+ with 384 dimension
+
+
+ # create environment variable
+ create .env file and store Pinecone_API_KEY= "*******"
+Pinecone_API_env= "******" or "us-east-1"
