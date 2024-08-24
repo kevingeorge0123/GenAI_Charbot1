@@ -56,9 +56,9 @@ python app.py
 open up localhost:
 ```
 
-# tech stack used
-Python
-LangChain
-Flask
-Meta Llama2
-Pinecone
+## Tech stack used
+- Python
+- LangChain
+- Flask
+- Meta Llama2
+- Pinecone
