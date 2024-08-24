@@ -165,3 +165,5 @@ mchatbot
 model/llama-2-7b-chat.ggmlv3.q4_0.bin
 .env
 experiment/trial3.ipynb
+testing1.py
+experiment/testing.py
