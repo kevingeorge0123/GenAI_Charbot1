@@ -40,3 +40,25 @@ https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
  # create environment variable
  create .env file and store Pinecone_API_KEY= "*******"
 Pinecone_API_env= "******" or "us-east-1"
+
+# running app
+
+``` bash
+python store_index.py
+```
+
+``` bash
+# Finally run the following command
+python app.py
+```
+
+``` bash 
+open up localhost:
+```
+
+# tech stack used
+Python
+LangChain
+Flask
+Meta Llama2
+Pinecone

@@ -11,7 +11,7 @@ Pinecone_API_KEY_=os.getenv("Pinecone_API_KEY")
 Pinecone_API_env_= os.getenv("Pinecone_API_env")
 
 ####loading data and splitting data into chunks
-extracted_data = load_pdf("../data")
+extracted_data = load_pdf("./data")
 text_chunks = text_split(extracted_data)
 text_chunks1=[t.page_content for t in text_chunks]
 
@@ -23,7 +23,7 @@ embeddings1 = model.encode(text_chunks1)
 
 ### creating index in pinecone if exist
 pc = Pinecone(api_key=Pinecone_API_KEY_)
-index_name = "med-chatbot"
+index_name = "med-chatbot2"
 
 if index_name not in pc.list_indexes().names():
     pc.create_index(
