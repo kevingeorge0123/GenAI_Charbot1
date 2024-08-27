@@ -1,5 +1,5 @@
 # GenAI_Chatbot1
-Creating a chatbot using llama2,langchain,pinecone vector db -a RAG application
+RAG Application:Creating a chatbot using llama2,langchain,pinecone vector db -a RAG application
 
 # bash command
 ``` bash
